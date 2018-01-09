@@ -1,7 +1,5 @@
 PyGRT v1.0.0
 ===============
-|pypi| |build|
-
 PyGRT is a thin API wrapper for the Grand River Transit Realtime API that isn't currently publicly documented. This is as much of the API as I could reverse-engineer/find in their public app.
 
 Install
