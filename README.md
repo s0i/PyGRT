@@ -27,5 +27,11 @@ Currently there is no rate-limiting but the GPS data is updated every 30 seconds
   print(grt.bus.all())
   
   # Get bus info
-  print(grt.bus.info('bus_id', 'trip_id')
+  print(grt.bus.info(bus_id, trip_id)
+  
+  # Get route polyline shape
+  print(grt.route.shape(route_id)
+  
+  # Get stops for route
+  print(grt.route.stops(route_id))
 ```
